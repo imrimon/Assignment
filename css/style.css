@@ -1,0 +1,141 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    border: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{ 
+    list-style-type: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Main Css Start */
+.wrapper-full{
+    width: 100%;
+}
+.wrapper{
+    width: 85%;
+    margin:0 auto;
+}
+
+/* Header CSS Start  */
+.header-full{
+    background-color: #161032;
+}
+.header{
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    font-size: 18px;
+}
+.header p{
+    float: left;
+}
+.header p i{
+    margin:0px 4px;
+}
+.header ul{
+    overflow: hidden;
+    float: right;
+}
+.header ul li{
+    float: left;
+    margin: 0px 4px;
+}
+.header ul li a{
+    color: slategray;
+}
+.header ul li a:hover{
+    color: #Fdd935;
+}
+
+/* Navigation Bar CSS start */
+.navbar-full{
+    background-color: #Fdd935;
+}
+.navbar{
+    height: 84px;
+    line-height: 84px;
+    color: #0f0e0e;
+}
+.navbar ul{
+    float: center;
+    overflow: hidden;
+    padding-left: 450px;
+}
+.navbar ul li{
+    float: left;
+    margin: 0px 2px;
+}
+.navbar ul li a{
+    color: #0f0e0e;
+    font-size: 20px;
+    padding: 31px 10px;
+}
+.navbar ul li a:hover{
+    background-color: #fa2742;
+    color: white;
+
+}
+
+/* Banner CSS Start */
+.banner-full{
+    background-image: url(../image/slide6.jpg);
+    height: 375px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-full:hover{
+    background-image: url(../image/slide1.jpg);
+    height: 375px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner{
+    color: #FFC53A;
+}
+/* Content CSS Start */
+.content-full{
+    background-color: #FFC53A;
+    padding: 10px;
+}
+.content{
+    padding: 20px 0px;
+    border: 3px double;
+}
+.content:hover{
+    background-color: blanchedalmond;
+}
+.content h2{
+    color: white;
+    background-color:#161032;
+    width: fit-content;
+    line-height: 30px;
+    margin-left: 500px;
+}
+.content h2:hover{
+    background-color: crimson;
+}
+.content p{
+    margin-top: 10px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+/* Footer Css Start */
+.footer-full{
+    background-color: #373833;
+}
+.footer{
+    height: 50px;
+    line-height: 50px;
+    color: #ffffff;
+}
